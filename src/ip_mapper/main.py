@@ -101,7 +101,6 @@ def get_ip_set(file_name):
     return  get_hostname(get_domain_names(get_urls(history_file)))
 
 
-
 def get_latitude_longitude(ip_set):
     complete_details = []
 
